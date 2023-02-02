@@ -1,5 +1,5 @@
 /* removing universal background */
-.bm-menu-wrap, .bm-item-list, .bm-item {
+.bm-menu-wrap, .bm-item-list, .bm-item, .bm-burger-button, .bm-burger-button button {
   background: none;
 }
 
