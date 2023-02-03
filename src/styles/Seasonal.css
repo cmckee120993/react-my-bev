@@ -1,4 +1,4 @@
-.menu-container, .tab-content, .menu-info, .ut-menu, .inner-container, .header-bg-color, .menu-header, .row-location-info, .section-name, .section-items-container, .menu-title, .date-time, .date-time span, .date-time time, .item-title-color, .tab-anchor, .ut-more, .pagination, .next, .next a, .last, .last a, .page, .page a, .pagination-container, .pagination-container b, .untappd-title-div, .untappd-title, .untappd-header-image, .no-price p strong {
+.menu-container, .first a, .prev a, .link-font-color, .tab-content, .menu-info, .ut-menu, .inner-container, .header-bg-color, .menu-header, .row-location-info, .section-name, .section-items-container, .menu-title, .date-time, .date-time span, .date-time time, .item-title-color, .tab-anchor, .ut-more, .pagination, .next, .next a, .last, .last a, .page, .page a, .pagination-container, .pagination-container b, .untappd-title-div, .untappd-title, .untappd-header-image, .no-price p strong {
     background: none;
 }
 
@@ -21,6 +21,12 @@
     width: 50%;
     margin: 25px;
 }
+
+.menu-container {
+    width: 75%;
+    margin: auto;
+}
+
 
 @media only screen and (min-width: 500px) {
     .untappd-header-image {

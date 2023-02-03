@@ -15,7 +15,7 @@ function Seasonal() {
                         />
             </div>
 
-            <div id="menu-container"></div>
+            <div id="menu-container" className='menu-container'></div>
         </>
     )
 };
