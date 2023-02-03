@@ -54,7 +54,7 @@
 
 .contact-submit {
     background-image: radial-gradient(#dee1e4, #aaa9ad) ;
-    width: 25%;
+    width: 40%;
     color: var(--secondary);
     font-family: 'Dokdo', cursive;
     font-size: 25px;
@@ -88,6 +88,7 @@
 
     .contact-submit {
         font-size: 40px;
+        width: 25%;
     }
 }
 

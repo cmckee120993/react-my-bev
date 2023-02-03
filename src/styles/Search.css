@@ -33,14 +33,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 25px 10px;
-    width: 340px;
+    width: 100%;
 }
 
 .search-words {
     background: var(--primary);
     font-family: 'Gloria Hallelujah', cursive;
-    width: 75%;
+    width: 70%;
     height: 50px;
 }
 

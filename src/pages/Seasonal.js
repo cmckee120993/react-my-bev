@@ -16,6 +16,8 @@ function Seasonal() {
             </div>
 
             <div id="menu-container" className='menu-container'></div>
+
+            <p className='slushy-products'>To search our full product catalogue, please go to our <a href='/search' className='internal-link'>Search Page</a>.</p>
         </>
     )
 };

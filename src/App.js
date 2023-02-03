@@ -13,7 +13,6 @@ import Navbar from './components/Nav';
 // page specific imports
 import Home from './pages/Home';
 import Search from './pages/Search';
-// import Slushies from './pages/Slushies';
 import Contact from './pages/Contact';
 import Seasonal from './pages/Seasonal';
 
@@ -28,7 +27,6 @@ function App() {
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/search' element={<Search />} />
-            {/* <Route path='/slushies' element={<Slushies />} /> */}
             <Route path='/contact' element={<Contact />} />
             <Route path='/seasonal' element={<Seasonal />} />
             <Route path='*' element={<h1>Wrong page!</h1>} />

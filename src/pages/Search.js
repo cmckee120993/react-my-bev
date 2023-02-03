@@ -103,7 +103,7 @@ function Search() {
                     })}
                 </Card.Group>
             </div>
-            <p className='slushy-products'>To see a list of our current slushy flavors, please go to our <a href='/slushies' className='internal-link'>Slushies Page</a>.</p>
+            <p className='slushy-products'>To see a list of our current slushy flavors, beers on tap, and seasonal beers, please go to our <a href='/seasonal' className='internal-link'>What's On Tap Page</a>.</p>
         </>
     )
 };
