@@ -26,26 +26,30 @@ function Footer() {
 
             {/* store phone and address */}
             <div className='locale'>
-                <a href='tel:7172412337' target="_blank" className='phone-number'>717-241-2337</a>
+                <a href='tel:7172412337' target="_blank" className='phone-number' rel='noreferrer'>717-241-2337</a>
                 <address>1021 Ritner Highway<br></br>
                      Carlisle, PA 17013</address>
             </div>
 
             {/* links to social media and contact */}
             <div className='social-links'>
-                <a href="https://www.facebook.com/wholelottabeer/" alt='Link to Beverage Express Facebook' target="_blank">
+                <a href="https://www.facebook.com/wholelottabeer/" alt='Link to Beverage Express Facebook' rel='noreferrer' target="_blank" style={{fontSize:0}}>
+                    Facebook
                     <FontAwesomeIcon alt='Beverage Express Facebook' className="footer-icon" icon={faFacebook} />
                 </a>
 
-                <a alt='Link to Beverage Express Instagram' href="https://www.instagram.com/bevexcarlisle/" target="_blank">
+                <a alt='Link to Beverage Express Instagram' href="https://www.instagram.com/bevexcarlisle/" rel='noreferrer' target="_blank" style={{fontSize:0}}>
+                    Instagram
                     <FontAwesomeIcon alt='Beverage Express Instagram' className="footer-icon" icon={faInstagram} />
                 </a>
 
-                <a href="https://www.untappd.com/v/beverage-express/866137" target="_blank">
+                <a href="https://www.untappd.com/v/beverage-express/866137" rel='noreferrer' target="_blank" style={{fontSize:0}}>
+                    Untappd
                     <FontAwesomeIcon className="footer-icon" icon={faUntappd} />
                 </a>
 
-                <a href="mailto: bev.express.carlisle@gmail.com" target="_blank">
+                <a href="mailto: bev.express.carlisle@gmail.com" rel='noreferrer' target="_blank" style={{fontSize:0}}>
+                    Email
                     <FontAwesomeIcon className="footer-icon" icon={faPaperPlane} />
                 </a>
             </div>
@@ -60,8 +64,8 @@ function Footer() {
             </div>
                 
             <div className='site-creator-contact'>
-                {/* <a className='creator-site' href='www.clayscreativesolutions.com' target='_blank'>www.clayscreativesolutions.com</a> */}
-                <a className='creator-email' href='mailto: clayscreativesolutions@gmail.com' target='_blank'>clayscreativesolutions@gmail.com</a>
+                <a className='creator-site' rel='noreferrer' href='www.clayscreativesolutions.com' target='_blank'>www.clayscreativesolutions.com</a>
+                <a className='creator-email'rel='noreferrer'  href='mailto: clayscreativesolutions@gmail.com' target='_blank'>clayscreativesolutions@gmail.com</a>
             </div>
             
         </footer>
