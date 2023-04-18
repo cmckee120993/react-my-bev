@@ -7,7 +7,7 @@
 
 .home-header, .home-description, .home-content, .email-listserv {
     color: var(--primary);
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
 }
 
 .home-header {
@@ -63,14 +63,14 @@
 .listserv-form input {
     background: var(--primary);
     width: 75%;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
 }
 
 .listserv-form button {
     background-image: radial-gradient(#dee1e4, #aaa9ad) ;
     width: 50%;
     color: var(--secondary);
-    font-family: 'Dokdo', cursive;
+    font-family: 'Dokdo', arial;
     font-size: 25px;
     margin-top: 10px;
     text-align: center;

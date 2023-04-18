@@ -14,7 +14,7 @@
 
 .contact-title {
     color: var(--primary);
-    font-family: 'Dokdo', cursive;
+    font-family: 'Dokdo', arial;
     font-size: 30px;
     margin-left: 10px;
     text-align: center;
@@ -39,24 +39,24 @@
     margin: 10px;
     width: 75%;
     background: var(--primary);
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
 }
 
 .contact-form textarea {
     height: 200px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
 }
 
 .contact-form label {
     font-size: 25px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
 }
 
 .contact-submit {
     background-image: radial-gradient(#dee1e4, #aaa9ad) ;
     width: 40%;
     color: var(--secondary);
-    font-family: 'Dokdo', cursive;
+    font-family: 'Dokdo', arial;
     font-size: 25px;
     margin-bottom: 20px;
     text-align: center;
@@ -69,7 +69,7 @@
 
 .success-message {
     color: var(--primary);
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
     font-size: 25px;
     text-align: justify;
     margin: 20px;

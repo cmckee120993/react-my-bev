@@ -30,7 +30,7 @@ footer {
 }
 
 .phone-number, address {
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', arial;
     font-size: 15px;
     color: var(--primary);
     width: 30%;
