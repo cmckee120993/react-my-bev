@@ -10,11 +10,12 @@
   background-image: radial-gradient(#1c1e47, black);
 }
 
-.internal-link, .external-link {
+a {
   color: var(--primary);
   background: none;
 }
 
-.internal-link:hover, .external-link:hover {
+a:hover {
   background-color: var(--hover);
+  border-radius: 10px;
 }

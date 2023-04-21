@@ -1,14 +1,48 @@
+.header-title, .header-logo, .header-logo img, .locale, .phone-number, .address-div, address, .header-image, .header-image, .header-border {
+    background: none;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.locale {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.address-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+
+.address-link {
+    padding: 5px;
+}
+
+.phone-number, .address-link {
+    margin: 10px 0px;
+    font-family: 'Gloria Hallelujah', arial;
+    font-size: 10px;
+    color: var(--primary);
+    width: 30%;
+}
+
 .header-image {
     width: 365px;
     height: 223px;
     margin-bottom: -5px;
-    background: none;
 }
 
 .header-border {
     width: 100%;
     padding-bottom: 25px;
-    background: none;
     display: flex;
     justify-content: center;
 }
@@ -17,12 +51,14 @@
     .header-image {
         width: 100%;
     }
+    .phone-number, .address-link {
+        font-size: 15px;
+    }
 }
 
-@media only screen and (min-width: 900px) {
-    .header-image {
-        width: 90%;
-        height: 300px;
+@media only screen and (min-width: 700px) {
+    .phone-number, .address-link {
+        font-size: 20px;
     }
 }
 

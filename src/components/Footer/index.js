@@ -24,13 +24,6 @@ function Footer() {
                 />
             </div>
 
-            {/* store phone and address */}
-            <div className='locale'>
-                <a href='tel:7172412337' target="_blank" className='phone-number' rel='noreferrer'>717-241-2337</a>
-                <address>1021 Ritner Highway<br></br>
-                     Carlisle, PA 17013</address>
-            </div>
-
             {/* links to social media and contact */}
             <div className='social-links'>
                 <a href="https://www.facebook.com/wholelottabeer/" alt='Link to Beverage Express Facebook' rel='noreferrer' target="_blank" style={{fontSize:0}}>
@@ -64,7 +57,7 @@ function Footer() {
             </div>
                 
             <div className='site-creator-contact'>
-                <a className='creator-site' rel='noreferrer' href='www.clayscreativesolutions.com' target='_blank'>www.clayscreativesolutions.com</a>
+                <a className='creator-site' rel='noreferrer' href='https://www.clayscreativesolutions.com' target='_blank'>www.clayscreativesolutions.com</a>
                 <a className='creator-email'rel='noreferrer'  href='mailto: clayscreativesolutions@gmail.com' target='_blank'>clayscreativesolutions@gmail.com</a>
             </div>
             

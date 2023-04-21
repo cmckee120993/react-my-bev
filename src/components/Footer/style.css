@@ -1,5 +1,5 @@
 /* remove universal background */
-footer, .locale, .footer-logo, .footer-logo img, .social-links, .social-links a, .footer-icon, .site-creator, .site-creator img, .copyright, address, .phone-number, .creator-site, .creator-email {
+footer, .footer-logo, .footer-logo img, .social-links, .social-links a, .footer-icon, .site-creator, .site-creator img, .copyright, .creator-site, .creator-email {
     background: none;
 }
 
@@ -17,27 +17,9 @@ footer {
     margin-top: 25px;
 }
 
-.locale {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .footer-logo img {
     width: 330px;
     height: 40px;
-}
-
-.phone-number, address {
-    font-family: 'Gloria Hallelujah', arial;
-    font-size: 15px;
-    color: var(--primary);
-    width: 30%;
-}
-
-.phone-number:hover {
-    background: var(--hover);
 }
 
 .social-links {
