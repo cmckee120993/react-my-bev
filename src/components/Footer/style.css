@@ -1,19 +1,16 @@
 /* remove universal background */
-footer, .footer-logo, .footer-logo img, .social-links, .social-links a, .footer-icon, .site-creator, .site-creator img, .copyright, .creator-site, .creator-email {
+ footer, .footer-logo, .footer-logo img, .social-links, .social-links a, .footer-icon, .site-creator, .site-creator img, .copyright, .site-creator-contact {
     background: none;
 }
 
 /* footer styling */
 footer {
     width: 100%;
-    display: flex;
-    flex-direction: column;
 }
 
 .footer-logo {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     margin-top: 25px;
 }
 
@@ -39,18 +36,21 @@ footer {
 }
 
 .site-creator {
-    margin-top: 25px;
+    margin-top: 40px;
 }
 
-.site-creator-contact, .site-creator {
+.site-creator, .site-creator-contact {
     display: flex;
     width: 100%;
-    justify-content: center;
     align-items: center;
 }
 
-.creator-site {
-    margin-right: 25px;
+.site-creator {
+    justify-content: center;
+}
+
+.site-creator-contact {
+    justify-content: space-around;
 }
 
 .site-creator img {
@@ -66,8 +66,13 @@ footer {
     font-size: 10px;
 }
 
-.creator-site:hover, .creator-email:hover {
-    background-color: var(--hover);
+.copyright {
+    text-align: center;
+}
+
+.creator-site, .creator-email {
+    padding: 0px 10px;
+    margin-bottom: 5px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -75,16 +80,8 @@ footer {
         width: 200px;
         height: 138px;
     }
-
-    .copyright {
-        margin-top: 65px;
-    }
-
-    .phone-number, address {
-        font-size: 20px;
-    }
     
     .copyright, .creator-site, .creator-email {
-    font-size: 18px;
+    font-size: 15px;
     }
 }

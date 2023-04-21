@@ -53,12 +53,15 @@ function Footer() {
                     src={clayLogo}
                     alt="Clay's Creative Solutions Logo"
                 />
-                <p className='copyright'>©2023 Clay's Creative Solutions</p>
+                <p className='copyright'>
+                    ©2023 Clay's Creative Solutions
+                    <br/>Small business support for small business
+                </p>
             </div>
                 
             <div className='site-creator-contact'>
-                <a className='creator-site' rel='noreferrer' href='https://www.clayscreativesolutions.com' target='_blank'>www.clayscreativesolutions.com</a>
-                <a className='creator-email'rel='noreferrer'  href='mailto: clayscreativesolutions@gmail.com' target='_blank'>clayscreativesolutions@gmail.com</a>
+                <a className='creator-site link' rel='noreferrer' href='https://www.clayscreativesolutions.com' target='_blank'>www.clayscreativesolutions.com</a>
+                <a className='creator-email link'rel='noreferrer'  href='mailto: clayscreativesolutions@gmail.com' target='_blank'>clayscreativesolutions@gmail.com</a>
             </div>
             
         </footer>

@@ -47,12 +47,12 @@ function Header() {
             </div>
 
             <div className='locale'>
-                <a href='tel:7172412337' className='phone-number' target='_blank' rel='noreferrer'>
+                <a href='tel:7172412337' className='phone-number link' target='_blank' rel='noreferrer'>
                     717-241-2337
                 </a>
                 <div className='address-div'>
                     <address>
-                        <a className='address-link' href='https://goo.gl/maps/YNwHwsxJ5qvTzRaXA' target='blank' rel='noreferrer'>
+                        <a className='address-link link' href='https://goo.gl/maps/YNwHwsxJ5qvTzRaXA' target='blank' rel='noreferrer'>
                             1021 Ritner Highway Carlisle, PA 17013
                         </a>
                     </address>
