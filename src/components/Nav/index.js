@@ -11,9 +11,6 @@ function Navbar() {
             <a className='menu-item' href='/'>
                 Home
             </a>
-            {/* <a className='menu-item' href='/slushies'>
-                Slushies
-            </a> */}
             <a className='menu-item' href='/seasonal'>
                 What's On Tap?
             </a>

@@ -72,13 +72,14 @@
     transition: color 0.2s;
     color: var(--primary);
     opacity: 100%;
-    font-family: 'Gloria Hallelujah', arial;
+    font-family: 'Gloria Hallelujah', cursive;
     font-size: 1.5em;
 }
   
 .bm-item:hover {
     background: var(--hover);
-    color: var(--secondary);
+    border-radius: 10px;
+    padding: 5px;
 }
 
 .nav-logo {
@@ -89,6 +90,7 @@
 
 .nav-logo:hover {
   background: none;
+  padding: 0px;
 }
 
 @media only screen and (min-width: 900px) {
