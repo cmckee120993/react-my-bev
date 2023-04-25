@@ -64,6 +64,8 @@
     background: var(--primary);
     width: 100%;
     font-family: 'Gloria Hallelujah', arial;
+    border-radius: 10px;
+    border: none;
 }
 
 .listserv-form button {
