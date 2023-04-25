@@ -49,7 +49,7 @@ function Contact() {
                 />
                 
                 <button
-                    className="contact-submit"
+                    className="button"
                     type="submit"
                     disabled={state.submitting}
                 >

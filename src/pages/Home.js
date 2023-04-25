@@ -38,7 +38,7 @@ function Home() {
                         our ads, publicity, product features, and information about special
                         events. You will receive about one to two emails a month (so it
                         won't take up too much space in your inbox).
-                        To contact us with a question, head to our <a className='internal-link' href='/contact'>Contact Page</a>.
+                        To contact us with a question, head to our <a className='link' href='/contact'>Contact Page</a>.
                     </p>
                     <form className="listserv-form" onSubmit={handleSubmit}>
                         <label htmlFor="name">Name</label>
@@ -51,10 +51,11 @@ function Home() {
                             field="email"
                             errors={state.errors}
                         />
-                        
-                        <button onClick={clear} type="submit" disabled={state.submitting}>
-                        Submit
-                        </button>
+                        <div className='button-div'>
+                            <button className='button' onClick={clear} type="submit" disabled={state.submitting}>
+                            Submit
+                            </button>
+                        </div>
                     </form>
                 </div>
                 
@@ -62,10 +63,9 @@ function Home() {
                  <div className='store-news'>
                     <h3 className='news-title'>New on Tap at Bev Exp!</h3>
                     <p className='news-description'>
-                        We've already got a whole lotta beer, but we want to say the same thing about our slushies. To make that happen, 
-                        we just added in some new slushy machines with new flavors! Check out our <a href='/seasonal' className='external-link'>
-                        "What's On Tap?"</a> page to keep up with our latest options. 
-                        Stay up to date with other news on our <a className='external-link' href='https://www.facebook.com/wholelottabeer/'>Facebook</a> and our <a className='external-link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>.
+                    ¡Viva la cerveza! We have everything you need to make your Cinco de mayo a real fiesta! Sale price is available from April 24, 2023 to May 7, 2023.
+                    Don't forget to pick up your chips and salsa or your limes and ice. Beverage Express has all you need in one stop. ¡Hasta pronto, amigas y amigos!
+                        Stay up to date with other news on our <a className='link' href='https://www.facebook.com/wholelottabeer/'>Facebook</a> and our <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>.
                     </p>
                     <img 
                     className='recent-news'

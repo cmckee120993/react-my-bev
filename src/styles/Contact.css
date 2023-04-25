@@ -1,6 +1,6 @@
 /* removing universal styling */
 
-.success-message, .contact-title-div, .contact-title, .contact-header-image, .contact-form, .contact-form input, .contact-form label, .contact-form textarea, .contact-submit {
+.success-message, .contact-title-div, .contact-title, .contact-header-image, .contact-form, .contact-form input, .contact-form label, .contact-form textarea {
     background: none;
 }
 
@@ -40,6 +40,8 @@
     width: 75%;
     background: var(--primary);
     font-family: 'Gloria Hallelujah', arial;
+    border-radius: 10px;
+    border: none;
 }
 
 .contact-form textarea {

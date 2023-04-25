@@ -1,6 +1,6 @@
 /* Removing Universal Styling */
 
-.search-title-div, .search-title, .search-header-image, .search-div, .search-words, .search-button, .card-div, .ui-card-div, .card, .beer-name, .beer-details, .beer-details p, .beer-placeholder, .beer-name h2, .content, .slushy-products {
+.search-title-div, .search-title, .search-header-image, .search-div, .search-words, .card-div, .ui-card-div, .card, .beer-name, .beer-details, .beer-details p, .beer-placeholder, .beer-name h2, .content, .slushy-products {
     background: none;
 }
 
@@ -33,7 +33,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .search-words {
@@ -41,22 +40,18 @@
     font-family: 'Gloria Hallelujah', arial;
     width: 70%;
     height: 50px;
-}
-
-.search-button {
-    background-image: radial-gradient(#dee1e4, #aaa9ad) ;
-    width: 25%;
-    height: 50px;
     border: none;
-    color: var(--secondary);
-    font-size: 25px;
-    font-family: 'Dokdo', arial;
-    text-align: center;
+    border-radius: 10px;
+    margin-right: 50px;
 }
 
-.search-button:hover {
-    background: var(--hover);
-    color: var(--primary);
+.search-div button {
+    width: 150px;
+    height: 50px;
+}
+
+.card-div {
+    margin-top: 20px;
 }
 
 .card {

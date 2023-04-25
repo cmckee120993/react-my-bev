@@ -67,7 +67,7 @@ function Search() {
                 onKeyDown={keyDown}
                 >
                 </input>
-                <button type="submit" className="search-button" onClick={searchItem}>
+                <button type="submit" className="button" onClick={searchItem}>
                 Search
                 </button>
             </div>
@@ -76,10 +76,6 @@ function Search() {
             <div className="card-div">
                 <Card.Group className="ui-card-div">
                     {APIData.map((item) => {
-                        // let price = item.CaseRetail;
-                        // let name = item.Description;
-                        // let packPrice = item.Retail;
-                        // let itemSize = item.Size;
                         return (
                             <Card className="card">
                                 <Card.Content>
@@ -103,7 +99,7 @@ function Search() {
                     })}
                 </Card.Group>
             </div>
-            <p className='slushy-products'>To see a list of our current slushy flavors, beers on tap, and seasonal beers, please go to our <a href='/seasonal' className='internal-link'>What's On Tap Page</a>.</p>
+            <p className='slushy-products'>To see a list of our current slushy flavors, beers on tap, and seasonal beers, please go to our <a href='/seasonal' className='link'>What's On Tap Page</a>.</p>
         </>
     )
 };

@@ -18,4 +18,28 @@
 .link:hover {
   background-color: var(--hover);
   border-radius: 10px;
+  padding: 5px;
+}
+
+.button-div {
+  background: none;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  background-image: radial-gradient(#dee1e4, #aaa9ad);
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px 1px white;
+  color: var(--secondary);
+    font-family: 'Dokdo', arial;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.button:hover {
+  color: var(--primary);
+  background: var(--hover);
 }
