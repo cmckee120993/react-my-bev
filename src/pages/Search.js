@@ -52,6 +52,7 @@ function Search() {
             <div className='search-title-div'>
                 <h2 className='search-title'>Product Search</h2>
                 <img
+                    loading='lazy'
                     className='search-header-image'
                     src={sixPack}
                     alt='Beverage Express Six Pack Logo'
@@ -81,6 +82,7 @@ function Search() {
                                 <Card.Content>
                                      <Card.Header className="beer-name">
                                         <img
+                                        loading='lazy'
                                         src={bottle}
                                         alt="Beer Placeholder"
                                         className="beer-placeholder"

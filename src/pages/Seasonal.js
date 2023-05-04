@@ -9,14 +9,17 @@ function Seasonal() {
             <div className='untappd-title-div'>
                         <h2 className='untappd-title'>What's On Tap?</h2>
                         <img
+                            loading='lazy'
                             className='untappd-header-image'
                             src={sixPack}
                             alt='Beverage Express Six Pack Logo'
+                            
                         />
             </div>
 
-            <div id="menu-container" className='menu-container'></div>
-
+            <div className='menu-container'>
+                <iframe loading='lazy' src="https://business.untappd.com/embeds/iframes/15228/56836" title='Untappd Menu' frameborder="0" height="2000" width="90%"></iframe>
+            </div>
             <p className='slushy-products'>To search our full product catalogue, please go to our <a href='/search' className='link'>Search Page</a>.</p>
         </>
     )

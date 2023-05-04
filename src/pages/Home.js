@@ -7,6 +7,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import '../styles/Home.css';
 import News from '../assets/images/bev-exp-news.webp';
 
+
 function Home() {
     // formspree form code
     const [state, handleSubmit] = useForm('xayzykgr');
@@ -63,11 +64,13 @@ function Home() {
                  <div className='store-news'>
                     <h3 className='news-title'>New on Tap at Bev Exp!</h3>
                     <p className='news-description'>
-                    ¡Viva la cerveza! We have everything you need to make your Cinco de mayo a real fiesta! Sale price is available from April 24, 2023 to May 7, 2023.
-                    Don't forget to pick up your chips and salsa or your limes and ice. Beverage Express has all you need in one stop. ¡Hasta pronto, amigas y amigos!
-                        Stay up to date with other news on our <a className='link' href='https://www.facebook.com/wholelottabeer/'>Facebook</a> and our <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>.
+                    We are excited to have this awesome summertime White Claw giveaway!!! Enter to win this YETI Tundra 45 at Beverage Express today. 
+                    All you have to do is stop in to fill out an entry form, like us on <a className='link' href='https://www.facebook.com/wholelottabeer' target='_blank' rel='noreferrer'>Facebook</a>, and share 
+                    the post (located in our "Featured" section)! Winner will be picked July 31st. Good luck🍺🍺🍺
+                    Stay up to date with other news on our <a className='link' href='https://www.facebook.com/wholelottabeer/'>Facebook</a> and our <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>.
                     </p>
                     <img 
+                    loading='lazy'
                     className='recent-news'
                     src={News}
                     alt='Beverage Express Van Decal'

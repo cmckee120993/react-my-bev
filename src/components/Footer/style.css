@@ -63,7 +63,7 @@ footer {
 .copyright, .creator-site, .creator-email {
     color: var(--primary);
     font-family:'Courier New', Courier, monospace;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .copyright {

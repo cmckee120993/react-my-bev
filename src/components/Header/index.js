@@ -15,6 +15,7 @@ function Header() {
             <img 
                 className='header-image'
                 src={headerImagePhone}
+                fetchPriority='high'
                 alt='"We got a whole lotta beer" with Beverage Express store front.'
             />
             </header>

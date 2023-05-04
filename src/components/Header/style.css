@@ -9,6 +9,11 @@
     margin-top: 25px;
 }
 
+.header-logo img {
+    height: 40px;
+    width: 330px;
+}
+
 .locale {
     display: flex;
     justify-content: center;
