@@ -3,7 +3,6 @@ import React from 'react';
 // fontawesome set up
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-
 // style and logo imports
 import './style.css';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
