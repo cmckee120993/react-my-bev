@@ -27,10 +27,6 @@
     width: 30%;
 }
 
-.address-link {
-    padding: 5px;
-}
-
 .phone-number, .address-link {
     margin: 10px 0px;
     font-family: 'Gloria Hallelujah', arial;

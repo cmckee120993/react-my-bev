@@ -32,6 +32,13 @@ function Contact() {
                 />
             </div>
 
+            <p className='page-description'>
+                In case you're not in Carlisle, PA at the moment or you just have a question about our products in general, you can get
+                in touch with someone at Beverage Express via this contact form, the phone, email, or social media. We value customer 
+                service just as much as we value providing a wide, diverse selection of quality beers. We look forward to helping you
+                in any way you choose to contact us.
+            </p>
+
             {/* contact form */}
             <form className="contact-form" onSubmit={handleSubmit}>
                 <label htmlFor="name">Name</label>

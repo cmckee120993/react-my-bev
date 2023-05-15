@@ -101,7 +101,11 @@ function Search() {
                     })}
                 </Card.Group>
             </div>
-            <p className='slushy-products'>To see a list of our current slushy flavors, beers on tap, and seasonal beers, please go to our <a href='/seasonal' className='link'>What's On Tap Page</a>.</p>
+            <p className='page-description'>Use this search bar to browse the Beverage Express catalogue to see if we have your favorite products in stock. 
+                With Carlisle's biggest selection of imported, domestic, and craft brews, this search can help you check to see if
+                we have a product in stock or if it's available from our wholesale distributors. Don't forget, you can always &nbsp; 
+                <a className='link' href='tel:7172412337' rel='noreferrer' target='_blank'>call us</a> with any questions you may have.</p>
+                <a href='/seasonal' className='link'><p className='button to-page'>To see a list of our current slushy flavors, beers on tap, and seasonal beers, please go to our What's On Tap Page.</p></a>
         </>
     )
 };
