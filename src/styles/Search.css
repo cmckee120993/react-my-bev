@@ -85,8 +85,8 @@
 }
 
 .beer-placeholder {
-    height: 100px;
     margin-top: 10px;
+    width: 100%
 }
 
 @media only screen and (min-width: 500px) {

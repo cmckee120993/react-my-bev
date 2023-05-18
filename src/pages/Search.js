@@ -28,11 +28,14 @@ function Search() {
             data: { search: `${searchParams}` },
         };
 
+        
+
         axios  
             .request(options)
             .then(function(response) {
                 console.log(response);
                 setAPIData(response.data.Results);
+                console.log(APIData);
             })
             .catch(function(error) {
                 console.error(error);
@@ -83,7 +86,7 @@ function Search() {
                                      <Card.Header className="beer-name">
                                         <img
                                         loading='lazy'
-                                        src={bottle}
+                                        src={item.Notes}
                                         alt="Beer Placeholder"
                                         className="beer-placeholder"
                                         />
