@@ -49,6 +49,28 @@ function Search() {
         };
     };
 
+    function imageSelector(img) {
+        if(img === "") {
+            return (
+            <img
+                loading='lazy'
+                src={bottle}
+                alt="Beer Placeholder"
+                className="beer-placeholder"
+            />
+            )
+        } else {
+            return (
+            <img
+                loading='lazy'
+                src={img}
+                alt="Beer Placeholder"
+                className="beer-img"
+            />
+            )
+        }
+    }
+
     return (
         <>
             {/* page title */}
@@ -84,12 +106,7 @@ function Search() {
                             <Card className="card">
                                 <Card.Content>
                                      <Card.Header className="beer-name">
-                                        <img
-                                        loading='lazy'
-                                        src={item.Notes}
-                                        alt="Beer Placeholder"
-                                        className="beer-placeholder"
-                                        />
+                                        {imageSelector(item.Notes)}
                                         <h2>{item.Description}</h2>
                                     </Card.Header>
                                     <Card.Description className="beer-details">
