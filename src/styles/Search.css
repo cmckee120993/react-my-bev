@@ -1,6 +1,6 @@
 /* Removing Universal Styling */
 
-.search-title-div, .search-title, .search-header-image, .search-div, .search-words, .card-div, .ui-card-div, .card, .beer-name, .beer-details, .beer-details p, .beer-placeholder, .beer-name h2, .content, .slushy-products {
+.search-title-div, .search-title, .search-header-image, .search-div, .search-words, .card-div, .ui-card-div, .card, .beer-name, .beer-details, .beer-details p, .beer-placeholder, .beer-img, .beer-name h2, .content, .slushy-products {
     background: none;
 }
 
