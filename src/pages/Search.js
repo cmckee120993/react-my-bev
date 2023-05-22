@@ -33,9 +33,8 @@ function Search() {
         axios  
             .request(options)
             .then(function(response) {
-                console.log(response);
                 setAPIData(response.data.Results);
-                console.log(APIData);
+                console.log(APIData[0].Name);
             })
             .catch(function(error) {
                 console.error(error);
@@ -67,6 +66,51 @@ function Search() {
                 alt="Beer Placeholder"
                 className="beer-img"
             />
+            )
+        }
+    }
+
+    function productCard(item) {
+
+        let productType = item.Name;
+        let nameArray = productType.split(" ");
+        let keg = nameArray.pop();
+        if (keg.toString() === "KEG") {
+            return(
+                <>
+                <Card className="card">
+                    <Card.Content>
+                        <Card.Header className="beer-name">
+                            {imageSelector(item.Notes)}
+                            <h2>{item.Description}</h2>
+                        </Card.Header>
+                        <Card.Description className="beer-details">
+                            <p>Keg Price: ${item.CaseRetail}</p>
+                            <p>Stock: {item.QuantityAvailable}</p>
+                            <p>{item.Category}</p>
+                        </Card.Description>
+                    </Card.Content>
+                </Card>
+                </>
+            )
+        } else {
+            return(
+                <>
+                <Card className="card">
+                    <Card.Content>
+                        <Card.Header className="beer-name">
+                            {imageSelector(item.Notes)}
+                            <h2>{item.Description}</h2>
+                        </Card.Header>
+                        <Card.Description className="beer-details">
+                            <p>Case: ${item.CaseRetail}</p>
+                            <p>{item.Size}: ${item.Retail}</p>
+                            <p>Stock: {item.QuantityAvailable}</p>
+                            <p>{item.Category}</p>
+                        </Card.Description>
+                    </Card.Content>
+                </Card>
+                </>
             )
         }
     }
@@ -103,20 +147,23 @@ function Search() {
                 <Card.Group className="ui-card-div">
                     {APIData.map((item) => {
                         return (
-                            <Card className="card">
-                                <Card.Content>
-                                     <Card.Header className="beer-name">
-                                        {imageSelector(item.Notes)}
-                                        <h2>{item.Description}</h2>
-                                    </Card.Header>
-                                    <Card.Description className="beer-details">
-                                        <p>Case: ${item.CaseRetail}</p>
-                                        <p>{item.Size}: ${item.Retail}</p>
-                                        <p>Stock: {item.QuantityAvailable}</p>
-                                        <p>{item.Category}</p>
-                                    </Card.Description>
-                                </Card.Content>
-                            </Card>
+                            <>
+                            {productCard(item)}
+                            </>
+                    //         <Card className="card">
+                    //             <Card.Content>
+                    //                  <Card.Header className="beer-name">
+                    //                     {imageSelector(item.Notes)}
+                    //                     <h2>{item.Description}</h2>
+                    //                 </Card.Header>
+                    //                 <Card.Description className="beer-details">
+                    //                     <p>Case: ${item.CaseRetail}</p>
+                    //                     <p>{item.Size}: ${item.Retail}</p>
+                    //                     <p>Stock: {item.QuantityAvailable}</p>
+                    //                     <p>{item.Category}</p>
+                    //                 </Card.Description>
+                    //             </Card.Content>
+                    //         </Card>
                         );
                     })}
                 </Card.Group>
