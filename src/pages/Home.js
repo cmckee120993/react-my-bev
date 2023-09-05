@@ -64,12 +64,8 @@ function Home() {
                  <div className='store-news'>
                     <h3 className='news-title'>New on Tap at Bev Exp!</h3>
                     <p className='news-description'>
-                    Get your super savings this week at Beverage Express! Great Lakes Brewing Company Dortmunder, Haze Craft, and Tropics are $16.99 for 
-                    the 24-pk of cans and $4.99 for the 6-pk. That's $25.00 off the case and $6.50 off 6! 
-                    Stop in and get your case while supplies last.
-
-                    Great Lakes not your thing? Make sure to check Beverage Express's  <a className='link' href='https://www.facebook.com/wholelottabeer' target='_blank' rel='noreferrer'>Facebook</a>, &nbsp; 
-                    <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>, or website each week for the next deal!
+                    Follow Beverage Express's social media to stay up to date about what's going on at our store. Check <a className='link' href='https://www.facebook.com/wholelottabeer' target='_blank' rel='noreferrer'>Facebook</a>, &nbsp; 
+                    <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>, or our website each week for the next deal!
                     </p>
                     <img 
                     loading='lazy'
