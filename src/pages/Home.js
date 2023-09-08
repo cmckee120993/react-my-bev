@@ -6,6 +6,7 @@ import { useForm, ValidationError } from '@formspree/react';
 // home styling and images
 import '../styles/Home.css';
 import News from '../assets/images/bev-exp-news.webp';
+import headerImage from '../assets/images/bev-exp-header.webp'
 
 
 function Home() {
@@ -21,13 +22,20 @@ function Home() {
     return (
         <>
             {/* page title and description */}
-            <h1 className="home-header">Welcome to Beverage Express!</h1>
-            <p className="home-description">
-                We are proud to be Carlisle's family-run, locally-owned beer
-                distributor. We boast the best selection of domestic, craft, and import
-                beer in the area at some of the best prices.
-            </p>
-
+            <h1 className='home-header'>Welcome to Beverage Express!</h1>
+            <div className='header-div'>
+                <img 
+                    className='header-image'
+                    src={headerImage}
+                    fetchPriority='high'
+                    alt='"We got a whole lotta beer" with Beverage Express store front.'                    
+                />
+                <p className="home-description">
+                    We are proud to be Carlisle's family-run, locally-owned beer
+                    distributor. We boast the best selection of domestic, craft, and import
+                    beer in the area at some of the best prices.
+                </p>
+            </div>
             {/* content on home page */}
             <div className="home-content">
                 {/* email listserv */}

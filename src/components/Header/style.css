@@ -35,12 +35,6 @@
     width: 30%;
 }
 
-.header-image {
-    width: 365px;
-    height: 223px;
-    margin-bottom: -5px;
-}
-
 .header-border {
     width: 100%;
     padding-bottom: 25px;
@@ -49,9 +43,6 @@
 }
 
 @media only screen and (min-width: 500px) {
-    .header-image {
-        width: 100%;
-    }
     .phone-number, .address-link {
         font-size: 15px;
     }
@@ -60,12 +51,5 @@
 @media only screen and (min-width: 700px) {
     .phone-number, .address-link {
         font-size: 20px;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    .header-image {
-        width: 90%;
-        height: 500px;
     }
 }

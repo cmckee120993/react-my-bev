@@ -2,39 +2,39 @@ import React from 'react'
 
 // styling and images
 import './style.css';
-import headerImagePhone from '../../assets/images/bev-exp-header-phone.webp';
-import headerImage from '../../assets/images/bev-exp-header.webp';
+// import headerImagePhone from '../../assets/images/bev-exp-header-phone.webp';
+// import headerImage from '../../assets/images/bev-exp-header.webp';
 import beerLogo from '../../assets/images/bev-exp-logo.webp';
 
 function Header() {
-    function mobileHeader() {
-        if (window.innerWidth <= 500 ) {
-        return (
-            <>
-            <header className='header-border'>
-            <img 
-                className='header-image'
-                src={headerImagePhone}
-                fetchPriority='high'
-                alt='"We got a whole lotta beer" with Beverage Express store front.'
-            />
-            </header>
-        </>
-        );
-    } else if (window.innerWidth >= 500) {
-        return (
-            <>
-                <header className='header-border'>
-                <img 
-                    className='header-image'
-                    src={headerImage}
-                    alt='"We got a whole lotta beer" with Beverage Express store front.'
-                />
-                </header>
-            </>
-        );
-    };
-    };
+    // function mobileHeader() {
+    //     if (window.innerWidth <= 500 ) {
+    //     return (
+    //         <>
+    //         <header className='header-border'>
+    //         <img 
+    //             className='header-image'
+    //             src={headerImagePhone}
+    //             fetchPriority='high'
+    //             alt='"We got a whole lotta beer" with Beverage Express store front.'
+    //         />
+    //         </header>
+    //     </>
+    //     );
+    // } else if (window.innerWidth >= 500) {
+    //     return (
+    //         <>
+    //             <header className='header-border'>
+    //             <img 
+    //                 className='header-image'
+    //                 src={headerImage}
+    //                 alt='"We got a whole lotta beer" with Beverage Express store front.'
+    //             />
+    //             </header>
+    //         </>
+    //     );
+    // };
+    // };
 
     return (
         <>
@@ -60,7 +60,7 @@ function Header() {
                 </div>
             </div>
         </div>
-        {mobileHeader()}
+        {/* {mobileHeader()} */}
         </>
     )
 };
