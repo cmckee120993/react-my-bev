@@ -38,7 +38,7 @@
 }
 
 .header-image {
-    width: 45%;
+    width: 65%;
     margin: 15px;
 }
 
@@ -100,12 +100,19 @@
         font-size: 40px;
     }
     .header-image {
-        width: 50%;
+        width: 60%;
     }
     .home-description{
-        width: 40%;
+        width: 30%;
+        font-size: 15px;
     }
     .home-content{
         align-items: start;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .home-description{
+        font-size: 20px;
     }
 }

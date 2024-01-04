@@ -72,15 +72,15 @@ function Home() {
                  <div className='store-news'>
                     <h3 className='news-title'>New on Tap at Bev Exp!</h3>
                     <p className='news-description'>
-                    Ithaca Java Power, Ithaca Petal Power, Neshaminy Creek Shape of the Haze to Come, and Neshaminy Creek Life Is a Painkiller are all now on buydown. Stop in for a 4-pack of 16oz cans for $5.49 or a case for $26.99! Only available while supplies last. 
+                
                     Check <a className='link' href='https://www.facebook.com/wholelottabeer' target='_blank' rel='noreferrer'>Facebook</a>, &nbsp; 
-                    <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>, or our website each week for the next deal!
+                    <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>, or our website each week for what's new!
                     </p>
                     <img 
                     loading='lazy'
                     className='recent-news'
                     src={News}
-                    alt='Mich Ultra Deal'
+                    alt='Beverage Express Logo'
                     />
                 </div>
             </div>
