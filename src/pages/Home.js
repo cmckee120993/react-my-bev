@@ -5,7 +5,10 @@ import { useForm, ValidationError } from '@formspree/react';
 
 // home styling and images
 import '../styles/Home.css';
-import News from '../assets/images/bev-exp-news.webp';
+import News1 from '../assets/images/bev-exp-news1.webp';
+import News2 from '../assets/images/bev-exp-news2.webp';
+import News3 from '../assets/images/bev-exp-news3.webp';
+import News4 from '../assets/images/bev-exp-news4.webp';
 import headerImage from '../assets/images/bev-exp-header.webp'
 
 
@@ -39,7 +42,7 @@ function Home() {
             {/* content on home page */}
             <div className="home-content">
                 {/* email listserv */}
-                <div className="email-listserv">
+                {/* <div className="email-listserv">
                     <h2 className="listserv-header">Sign Up for Our Newsletter</h2>
                     <p className="listserv-description">
                         We are very active on social media, but if being social isn't your
@@ -66,22 +69,43 @@ function Home() {
                             </button>
                         </div>
                     </form>
-                </div>
+                </div>  */}
                 
                 {/* store news */}
                  <div className='store-news'>
                     <h3 className='news-title'>New on Tap at Bev Exp!</h3>
                     <p className='news-description'>
-                
+                    Celebrate your Independence Day with sales at Beverage Express! From June 28 to July 7, stop in for your July 4th party supplies.
                     Check <a className='link' href='https://www.facebook.com/wholelottabeer' target='_blank' rel='noreferrer'>Facebook</a>, &nbsp; 
-                    <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>, or our website each week for what's new!
+                    <a className='link' href='https://www.instagram.com/bevexcarlisle/'>Instagram</a>, or our website each week for what's new! 
+            
                     </p>
+                    <div className='news-div'>
                     <img 
                     loading='lazy'
                     className='recent-news'
-                    src={News}
+                    src={News1}
                     alt='Beverage Express Logo'
                     />
+                     <img 
+                    loading='lazy'
+                    className='recent-news'
+                    src={News2}
+                    alt='Beverage Express Logo'
+                    />
+                     <img 
+                    loading='lazy'
+                    className='recent-news'
+                    src={News3}
+                    alt='Beverage Express Logo'
+                    />
+                     <img 
+                    loading='lazy'
+                    className='recent-news'
+                    src={News4}
+                    alt='Beverage Express Logo'
+                    />
+                    </div>
                 </div>
             </div>
         </>
